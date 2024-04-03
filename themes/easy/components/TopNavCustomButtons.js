@@ -17,7 +17,7 @@ const TopNavCustomButtons = props => {
           props.className || ''
         } z-10 duration-200 text-lg cursor-pointer py-1.5 px-1`}
       >
-        <i className={`hover:scale-125 transform duration-200 ${item.icon}`} />
+        <i className={`rounded-md hover:scale-125 transform duration-200 ${item.icon}`} />
       </Link>
     ))
   } catch (e) {
