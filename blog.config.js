@@ -63,6 +63,8 @@ const BLOG = {
   ],
   // 无衬线字体 例如'"LXGW WenKai"'
   FONT_SANS: [
+    '"Noto Serif"',
+    '"Noto Serif SC"',
     '"LXGW WenKai"',
     "LXGW WenKai Screen",
     '"PingFang SC"',
