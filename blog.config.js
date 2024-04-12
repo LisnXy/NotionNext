@@ -50,9 +50,10 @@ const BLOG = {
   // START ************网站字体*****************
   // ['font-serif','font-sans'] 两种可选，分别是衬线和无衬线: 参考 https://www.jianshu.com/p/55e410bd2115
   // 后面空格隔开的font-light的字体粗细，留空是默认粗细；参考 https://www.tailwindcss.cn/docs/font-weight
-  FONT_STYLE: process.env.NEXT_PUBLIC_FONT_STYLE || 'font-sans font-light',
+  FONT_STYLE: process.env.NEXT_PUBLIC_FONT_STYLE || 'font-serif',
   // 字体CSS 例如 https://npm.elemecdn.com/lxgw-wenkai-webfont@1.6.0/style.css
   FONT_URL: [
+    'https://fonts.googleapis.com/css2?family=Noto+Serif+SC&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap',
     'https://npm.elemecdn.com/lxgw-wenkai-screen-webfont@1.6.0/style.css',
     'https://at.alicdn.com/t/c/font_2570074_7l7862embmm.css?spm=a313x.manage_type_myprojects.i1.9.2a843a81cH5CLe&file=font_2570074_7l7862embmm.css',
     // 'https://npm.elemecdn.com/lxgw-wenkai-webfont@1.6.0/style.css',
@@ -83,10 +84,11 @@ const BLOG = {
   ],
   // 衬线字体 例如'"LXGW WenKai"'
   FONT_SERIF: [
+    '"Noto Serif"',
+    '"Noto Serif SC"',
     '"LXGW WenKai"',
     "LXGW WenKai Screen",
     'Bitter',
-    '"Noto Serif SC"',
     'SimSun',
     '"Times New Roman"',
     'Times',
