@@ -53,12 +53,11 @@ const BLOG = {
   FONT_STYLE: process.env.NEXT_PUBLIC_FONT_STYLE || 'font-serif',
   // 字体CSS 例如 https://npm.elemecdn.com/lxgw-wenkai-webfont@1.6.0/style.css
   FONT_URL: [
-    'https://fonts.font.im/css2?family=Noto+Serif+SC&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap',
+    'https://fonts.font.im/css2?family=Noto+Serif+SC:wght@200;300;400;500;600;700;900&display=swap'
   ],
   // 无衬线字体 例如'"LXGW WenKai"'
   FONT_SANS: [
     '"Noto Serif SC"',
-    '"Noto Serif"',
     '"LXGW WenKai"',
     "LXGW WenKai Screen",
     '"PingFang SC"',
@@ -81,7 +80,6 @@ const BLOG = {
   // 衬线字体 例如'"LXGW WenKai"'
   FONT_SERIF: [
     '"Noto Serif SC"',
-    '"Noto Serif"',
     '"LXGW WenKai"',
     "LXGW WenKai Screen",
     'Bitter',
